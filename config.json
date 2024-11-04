@@ -1,0 +1,11 @@
+{
+  "PROJECT_ID": "droneobstacle",
+  "LOCATION": "us-central1",
+  "GOOGLE_API_KEY": "AIzaSyChe1dUK88RC-tvR-7bpotZUfvI1sqxh4w",
+  "LLM": "gemini-1.5-flash",
+  "CAM_PROTO_PATH": "./MobileNetSSD_deploy.prototxt",
+  "CAM_MODEL_PATH": "./MobileNetSSD_deploy.caffemodel",
+  "CAM_MOBILE_NET_SSD_CONFIDENCE_THRESHOLD": 0.5,
+  "DRONE_CONNECTION_STRING"  : "/dev/ttyAMA0",
+  "DRONE_BAUD_RATE" :57600
+}
